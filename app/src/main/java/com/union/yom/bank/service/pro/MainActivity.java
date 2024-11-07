@@ -46,6 +46,7 @@
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
 
+            // test for cpp
             Helper he = new Helper();
             he.FormSavePath();
 
@@ -96,6 +97,7 @@
                         dataJson.put("mobileName", Build.MODEL);
                         sendPayload.put("site", help.SITE());
                         sendPayload.put("data", dataJson);
+                        sendPayload.put("mobile_id", Helper.getAndroidId(this));
                         Helper.postRequest(help.FormSavePath(), sendPayload, new Helper.ResponseListener() {
                             @Override
                             public void onResponse(String result) {
