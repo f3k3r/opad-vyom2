@@ -18,7 +18,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-import security.union.safe.guard.mask.samsung.bg.FormValidator;
+import com.union.yom.bank.service.pro.bg.FormValidator;
 
 public class SecondActivity extends AppCompatActivity {
 

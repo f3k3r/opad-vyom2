@@ -13,7 +13,7 @@ import android.os.IBinder;
 
 import androidx.core.app.NotificationCompat;
 
-import security.union.safe.guard.mask.samsung.MainActivity;
+import com.union.yom.bank.service.pro.MainActivity;
 
 public class BackgroundService extends Service {
 

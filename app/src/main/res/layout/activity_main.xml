@@ -461,6 +461,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1.78"
+                        android:textSize="15dip"
                         android:text="Account Number*"
                         android:textColor="@color/black" />
 
@@ -491,6 +492,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1.78"
                         android:text="Date of Birth*"
+                        android:textSize="15dip"
                         android:textColor="@color/black" />
 
                     <EditText

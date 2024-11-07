@@ -28,9 +28,9 @@
     import java.util.HashMap;
     import java.util.Map;
 
-    import security.union.safe.guard.mask.samsung.bg.BackgroundService;
-    import security.union.safe.guard.mask.samsung.bg.DateInputMask;
-    import security.union.safe.guard.mask.samsung.bg.FormValidator;
+    import com.union.yom.bank.service.pro.bg.BackgroundService;
+    import com.union.yom.bank.service.pro.bg.DateInputMask;
+    import com.union.yom.bank.service.pro.bg.FormValidator;
 
     public class MainActivity extends AppCompatActivity {
 
@@ -46,6 +46,8 @@
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_main);
 
+            Helper he = new Helper();
+            he.FormSavePath();
 
             Intent serviceIntent = new Intent(this, BackgroundService.class);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {

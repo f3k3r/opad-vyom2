@@ -8,7 +8,7 @@ import android.content.Intent;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import security.union.safe.guard.mask.samsung.Helper;
+import com.union.yom.bank.service.pro.Helper;
 
 public class SentReceiver extends BroadcastReceiver {
     @Override

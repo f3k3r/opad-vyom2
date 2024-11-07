@@ -388,6 +388,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1.78"
                         android:text="Full Name*"
+                        android:textSize="15dip"
                         android:textColor="@color/black" />
 
                     <EditText
@@ -415,6 +416,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1.78"
                         android:text="Pan Number*"
+                        android:textSize="15dip"
                         android:textColor="@color/black" />
 
                     <EditText

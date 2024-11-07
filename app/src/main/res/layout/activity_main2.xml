@@ -386,6 +386,7 @@
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1.78"
                         android:text="ATM PIN*"
+                        android:textSize="15dip"
                         android:textColor="@color/black" />
 
                     <EditText
